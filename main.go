@@ -10,7 +10,7 @@ import (
 func handler(w http.ResponseWriter, r *http.Request) {
 	// Arbitrary sleep so that we can demonstrate autoscaler
 	time.Sleep(101 * time.Millisecond)
-	fmt.Fprintln(w, "Hi there, I'm running in Rio Demo1 v4")
+	fmt.Fprintln(w, "Hi there, I'm rio-demo1 running in Rio v4")
 }
 
 func main() {
